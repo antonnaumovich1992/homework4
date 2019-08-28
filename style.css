@@ -1,0 +1,63 @@
+  body {
+      font-family: Arial;
+      background: rgb(129, 78, 78);
+  }
+
+  .tab {
+      margin-left: 20px;
+
+  }
+
+  .space {
+      background: lightgray;
+      height: 500px;
+      width: 500px;
+      display: block;
+      padding: 6px 12px;
+      border: 1px solid black;
+      box-shadow: 5px 5px 5px 5px rgb(19, 6, 6);
+
+  }
+
+
+  .tab button {
+      margin: 20px -6px 0 0;
+      border: 1px solid black;
+      white-space: nowrap;
+      text-align: center;
+      vertical-align: bottom;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-bottom: none;
+
+  }
+
+  .tab button:hover {
+      background-color: white;
+      color: blue;
+  }
+
+  .tab button.active {
+      background-color: blue;
+      color: white;
+  }
+
+  .tabcontent {
+      display: none;
+  }
+
+  .tabcontent h3 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 250%;
+  }
+
+  .tabcontent p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 150%;
+  }
+
+  .tab button:active:hover {
+      transform: scale(0.85)
+  }
